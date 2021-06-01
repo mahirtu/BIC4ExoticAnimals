@@ -4,7 +4,8 @@
 @section('content')
     <section class="section">
         <div class="container">
-            <h1>Search animal</h1>
+            <animals-search-component>
+            </animals-search-component>
         </div>
     </section>
 @endsection

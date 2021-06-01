@@ -4,7 +4,7 @@
 @section('content')
     <section class="section">
         <div class="container">
-            <h1>Create animal</h1>
+            <animal-edit-component :is-editable="false" ></animal-edit-component>
         </div>
     </section>
 @endsection

@@ -4,7 +4,11 @@
 @section('content')
     <section class="section">
         <div class="container">
-            <h1>Edit animal</h1>
+            @if(isset($animal->species))
+            <animal-edit-component :is-editable="true" :current-animal="{{$animal}}" :current-species="{{ $animal->species}}"></animal-edit-component>
+            @else
+            <animal-edit-component :is-editable="true" :current-animal="{{$animal}}" :current-species="[]"></animal-edit-component>
+            @endif
         </div>
     </section>
 @endsection

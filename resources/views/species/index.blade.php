@@ -2,9 +2,18 @@
 
 
 @section('content')
-    <section class="section">
+<div class="content">
+    <div class="block">
         <div class="container">
-            <h1>List species</h1>
+            <h1>List Species</h1>
         </div>
-    </section>
+
+
+    </div>
+
+    <species-list-component :all-species="{{$species}}"></species-list-component>
+</div>
+
+
+</section>
 @endsection

@@ -20,6 +20,16 @@ window.Vue = vue;
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
+
+Vue.component('animal-list-component', require('./components/AnimalsListComponent.vue').default);
+Vue.component('animal-show-component', require('./components/AnimalsShowComponent').default);
+Vue.component('animal-edit-component', require('./components/AnimalsEditComponent').default);
+Vue.component('species-show-component', require('./components/SpeciesShowComponent').default);
+Vue.component('species-list-component', require('./components/SpeciesListComponent').default);
+Vue.component('species-edit-component', require('./components/SpeciesEditComponent').default);
+Vue.component('query-message', require('./components/base/QueryMessage.vue').default);
+Vue.component('animals-search-component', require('./components/AnimalsSearchComponent').default);
+
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('query-message', require('./components/base/QueryMessage.vue').default);
 

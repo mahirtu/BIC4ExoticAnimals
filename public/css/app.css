@@ -11755,6 +11755,8 @@ label.panel-block:hover {
 }
 
 .footer {
+  background-color: #00b89c;
+  color: white;
   height: 5vh;
 }
 

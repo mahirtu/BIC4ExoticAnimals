@@ -4,7 +4,9 @@
 @section('content')
     <section class="section">
         <div class="container">
-            <h1>Show species</h1>
+
+            <species-show-component :current-species="{{ $species }}" :current-animal="{{ $species->animals }}" >
+            </species-show-component>
         </div>
     </section>
 @endsection
