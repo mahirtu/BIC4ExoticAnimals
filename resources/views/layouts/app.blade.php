@@ -142,7 +142,7 @@
 
     <footer class="footer">
         <div class="content has-text-centered">
-            <small>Here comes some footer</small>
+            <small>Exotic Animals - Rüb, Houzar, Alnaif, Tulic</small>
         </div>
     </footer>
 </div>
